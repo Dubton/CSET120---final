@@ -12,9 +12,21 @@ html, body{
 
 .head{
     height: 12%;
-    position: relative;
-    top: 0%;
     background-color: red;
+    overflow: hidden;
+    border-bottom: 1px solid;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header a {
+    float: left;
+    margin: 0px 15px;
+    padding: 20px;
+}
+.header-right{
+    float: right;
 }
 
 .foot{
