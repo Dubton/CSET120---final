@@ -1,0 +1,66 @@
+/* Universal CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.head{
+    height: 12%;
+    position: relative;
+    top: 0%;
+    background-color: red;
+}
+
+.foot{
+ height: 12%;
+ width: inherit;
+ position: absolute;
+ bottom: 0%;
+ background-color: black;
+}
+
+/* SignUp CSS */
+#signForm{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    height: 25vh;
+    text-align: right;
+    font-size: 18px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 3px grey;
+}
+
+#signForm>input{
+    width: 30vh;
+    margin-top:2.5vh;
+}
+
+#SignMain{
+    height: 76%;
+    width: inherit;
+    background-image: url(/Images/SignBack.jpg);
+    background-size: cover;
+}
+/* Login CSS */
+
+
+/* Menu CSS */
+
+
+/* Payment CSS */
+
+
+/* Receipt CSS */
+
+
+/* Management CSS */
