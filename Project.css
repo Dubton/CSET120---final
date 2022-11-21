@@ -35,7 +35,30 @@ html, body{
  position: absolute;
  bottom: 0%;
  background-color: black;
+ padding-top: 20px;
 }
+.foot p{
+    color: white;
+    float: left;
+}
+.foot img{
+    float: right;
+    margin-left: 10px;
+}
+.header a {
+    float: left;
+    margin: 0px 15px;
+    padding: 20px;
+}
+.header-right{
+    float: right;
+}
+a, a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+
 
 /* SignUp CSS */
 #signForm{
