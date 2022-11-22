@@ -81,6 +81,32 @@ a, a:visited{
 
 
 /* Payment CSS */
+#Payment {
+    width: 100vw;
+	min-height: 200px;
+	font-size: 1.2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container {
+    margin: 100px;
+    background: lightgray;
+	max-width: 800px;
+	min-height: fit-content;
+	display: flex;
+	justify-content:space-between;
+	align-items: flex-start;
+	padding: 0.5rem 1.5rem;
+    border: solid;
+    border-radius: 2%;
+}
+.left{
+	flex-basis: 50%;
+}
+.right{
+	flex-basis: 50%;
+}
 
 
 /* Receipt CSS */
