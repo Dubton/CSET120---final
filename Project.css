@@ -90,9 +90,9 @@ a, a:visited{
 	align-items: center;
 }
 .container {
-    margin: 100px;
+    margin: 125px;
     background: lightgray;
-	max-width: 800px;
+	width: 625px;
 	min-height: fit-content;
 	display: flex;
 	justify-content:space-between;
