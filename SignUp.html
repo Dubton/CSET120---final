@@ -19,18 +19,25 @@
         </div>
     </header>
 
-    <section id="SignMain">
-        <form id="signForm">
-            <label for="user">Name</label>
-            <input type="text" name="user" placeholder="Enter a Username">
-                <br><br>
-            <label for="email">Email</label>
-            <input type="text" name="email" placeholder="Enter your Email">
-                <br><br>
-            <label for="password">Password</label>
-            <input type="password" name="password" placeholder="Enter password">     
-    </form>
-    </section>
+    <div id="signForm">
+        <form role="form" onsubmit="signUp(event);">
+            <div class="form-group">
+                <input type="text" name="fname" id="fname" placeholder="First Name" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" id="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+                <input type="password" name="pwd" id="pwd" placeholder="Password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Sign Up</button>
+            </div>
+        </form>
+    </div>
     
 
     <footer class="foot">

@@ -74,6 +74,17 @@ a, a:visited{
     background-image: url(/Images/SignBack.jpg);
     background-size: cover;
 }
+.form-group{
+    margin-top: 15px;
+}
+.form-group button{
+margin-right: 55px;
+margin-top: 25px;
+border-radius: 5px;
+background-color: red;
+padding: 5px;
+color: white;
+}
 /* Login CSS */
 
 
