@@ -49,13 +49,13 @@ a, a:visited{
 
 
 /* SignUp CSS */
-#signForm{
+.signForm{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: fit-content;
-    height: 25vh;
+    height: 40vh;
     text-align: right;
     font-size: 18px;
     padding: 10px;
@@ -63,12 +63,12 @@ a, a:visited{
     box-shadow: 5px 5px 5px 3px grey;
 }
 
-#signForm>input{
+.signForm>input{
     width: 30vh;
     margin-top:2.5vh;
 }
 
-#SignMain{
+.SignMain{
     height: 76%;
     width: inherit;
     background-image: url(/Images/SignBack.jpg);
@@ -79,13 +79,15 @@ a, a:visited{
 }
 .form-group button{
 margin-right: 55px;
-margin-top: 25px;
+margin-top: 2px;
 border-radius: 5px;
 background-color: red;
 padding: 5px;
 color: white;
 }
 /* Login CSS */
+
+
 
 
 /* Menu CSS */
@@ -100,7 +102,7 @@ color: white;
 	justify-content: center;
 	align-items: center;
 }
-.container {
+.paycon {
     margin: 125px;
     background: lightgray;
 	width: 625px;
